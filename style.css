@@ -54,3 +54,10 @@ body {
 .right-cont img {
   max-width: 40px;
 }
+
+/* Responsive CSS */
+@media (max-width: 767px) {
+  .main-nav {
+    display: none;
+  }
+}
