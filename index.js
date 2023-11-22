@@ -19,18 +19,18 @@ function fetchAndBuildAllSections() {
             const categories = res.genres;
             if (Array.isArray(categories) && categories.length) {
                 categories.forEach(category => {
-                    fetchAndBuildAllSections(category)
+                    fetchAndBuldMovieSection(category)
                 });
             }
-            console.table(movies);
+            // console.table(movies);
         })
         .catch(err => console.log(err));
 }
 
-function buldMovieSection(category) {
+function fetchAndBuldMovieSection(category) {
     console.log(category);
 }
 
 window.addEventListener('load', function () {
-    init()
+    init();
 });
