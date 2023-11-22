@@ -2,28 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Popflix</title>
+    <title>Netflix clone</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
   </head>
   <body>
-<!-- Header Section -->
-    <header id="header">
+    <!-- header start -->
+    <header id="header" class="">
       <div class="header-cont container">
         <div class="left-cont">
           <img
             class="header-brand"
-            src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=700&h=456"
+            src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456"
             alt=""
           />
           <ul class="main-nav">
-            <li class="nav-items active">Home</li>
-            <li class="nav-items">Tv shows</li>
-            <li class="nav-items">Movies</li>
-            <li class="nav-items">News & Popular</li>
-            <li class="nav-items">My List</li>
-            <li class="nav-items">Browse by Language</li>
+            <li class="nav-item active">Home</li>
+            <li class="nav-item">Tv Shows</li>
+            <li class="nav-item">Movies</li>
+            <li class="nav-item">News & Popular</li>
+            <li class="nav-item">My List</li>
+            <li class="nav-item">Browse by Languages</li>
           </ul>
         </div>
         <div class="right-cont">
@@ -64,5 +65,16 @@
         </div>
       </div>
     </header>
+    <!-- header end -->
+
+    <!-- banner section -->
+    <div class="banner-section" id="banner-section">
+      <div class="banner_fadeBottom"></div>
+    </div>
+    <!-- banner section end -->
+
+    <!-- movies sections -->
+    <div class="movies-cont container" id="movies-cont"></div>
+    <!-- movies sections end -->
   </body>
 </html>
